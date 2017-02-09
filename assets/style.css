@@ -1,0 +1,530 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+body {
+	background: #ededed;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.navwrapper {
+	background: #ffffff;
+	border-bottom: 2px solid #dddddd;
+	width: 100%;
+}
+
+.container {
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.wrapper {
+	background-image: url(http://www.thegraphicmac.com/wp-content/uploads/ps_subtle-patterns.jpg);
+	display: inline-block;
+	width: 100%;
+	vertical-align: middle;
+}
+
+.nav {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	overflow: visible;
+}
+
+header {
+	display: inline-block;
+	float: left;
+	font-size: 28px;
+	background: #4aaaa5;
+	padding: 35px;
+	margin: 0 0 0 0px;
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 34px;
+	font-weight: 600;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 30px;
+	font-weight: 600;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+nav {
+	width: 100%;
+}
+
+nav ul {
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	font-size: 14px;
+	margin: 0px;
+	padding: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+nav ul li a:hover {
+	color: #4aaaa5;
+}
+
+nav ul li a:link {
+	color: #777777;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #777777;
+}
+
+.index {
+	border-right: 1px solid #777777;
+	padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 35px;
+}
+
+.portfolio {
+	border-right: 1px solid #777777;
+	padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 35px;
+}
+
+.contact  {
+	padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 35px;
+}
+
+section {
+	display: inline-block;
+	float: left;
+	width: 650px;
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	padding: 40px;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+}
+
+section img:hover {
+	opacity: .5;
+}
+
+section img {
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+input[name=text] {
+	font-size: 16px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: #dfdfdf;
+ }
+
+textarea {
+	font-size: 16px;
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: #dfdfdf;
+    resize: none;
+}
+
+input[type=button] {
+    background-color: #4aaaa5;
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.box1 {
+    float: left;
+    width: 48%;
+    margin-right: 22px;
+    position: relative;
+}
+
+.box2 {
+    float: left;
+    width: 48%;
+    position: relative;
+}
+
+.box1 img{
+	width: 100%;
+	height: auto;
+}
+
+.box2 img{
+	width: 100%;
+	height: auto;
+}
+
+section h4 {
+	background: #4aaaa5;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 135px;
+}
+
+form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+article img {
+	display: block;
+	float: left;
+	margin-right: 15px;
+}
+
+aside {
+	display: inline-block;
+	float: left;
+	width: 270px;
+	margin-top: 30px;
+	padding: 20px;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	text-align: center;
+}
+
+aside h3 {
+	padding-bottom: 10px;
+}
+
+aside ul li{
+	display: inline-block;
+	font-size: 14px;
+	margin: 10px;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+	background: #666666;
+	width: 100%;
+	padding: 40px;
+	border-top: solid #4aaaa5 15px;
+}
+
+footer {
+	font-size: 12px;
+	text-align: center;
+	color: #ffffff;
+	margin-top: -10px;
+}
+
+/* General Rules End */
+
+
+/* Desktop Screen Size Begin */
+
+@media only screen and (max-width: 980px) {
+
+  /* Home Page Begin */
+.container {
+	padding: 0px 85px;
+}
+
+section img {
+	width: 100%;
+    height: 100%;
+}
+
+section {
+	width: 63%;
+}
+
+aside {
+	width: 34%;
+}
+
+section h4 {
+	top: 70%;
+
+}
+.box1 {
+    float: left;
+    width: 100%;
+    margin-right: 30px;
+    position: relative;
+}
+
+.box2 {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+  
+  /* Home Page End */
+}
+
+/* Desktop Screen Size End */
+
+/* Mobile Screen Size End */
+
+/* Tablet Screen Size Begin */
+
+@media only screen and (max-width: 768px) {
+
+.container {
+	padding: 0;
+}
+
+.navwrapper {
+ 	padding: 0 20px;
+}
+
+.wrapper {
+	width: 100%;
+	padding: 20px;
+}
+
+header {
+	position: static;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+    float: none;
+    margin: 0;
+}
+
+nav ul {
+	float: none;
+	text-align: right;
+}
+
+nav ul li {
+	border: none;
+	font-size: 14px;
+	margin: 0px;
+	padding: 30px;
+}
+
+nav ul li:last-child {
+	padding-right: 0;
+}
+
+.index {
+	border: none;
+}
+
+.portfolio {
+	border: none;
+}
+
+.container.clearfix {
+	width: 100%;
+}
+
+.container {	
+	width:100%;
+}
+
+section {
+	width: 100%;
+	padding: 20px;
+	margin: 0;
+
+}
+
+section h2 {
+	font-size: 26px;
+	padding-top: 10px;
+}
+
+section h4 {
+	top: 63%;
+
+}
+
+article img {
+	width: 35%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+aside {
+	width: 100%;
+	padding: 20px;
+	text-align: left;
+}
+
+.box1 {
+    float: left;
+    width: 47.5%;
+    margin-right: 30px;
+    position: relative;
+}
+
+.box2 {
+    float: left;
+    width: 47.5%;
+    position: relative;
+}
+
+}
+
+/* Tablet Screen Size End */
+
+/* Mobile Screen Size Begin */
+
+@media handheld, screen and (max-width: 640px) {
+
+  /* Home Page Begin */
+
+.navwrapper {
+	padding: 0;
+}
+
+.wrapper {
+	width: 100%;
+	padding: 20px;
+}
+
+header {
+	position: static;
+	width:100%;
+	text-align: center;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+    float: none;
+    margin: 0;
+    bottom: 20px;
+
+}
+
+nav ul {
+	float: none;
+	text-align: center;
+}
+
+nav ul li {
+	border: none;
+	font-size: 14px;
+	margin: 0px;
+	padding: 30px;
+	float: none;
+}
+
+nav ul li:last-child {
+	padding-right: 35px;
+}
+
+.index {
+	border: none;
+}
+
+.portfolio {
+	border: none;
+}
+
+.container.clearfix {
+	width: 100%;
+}
+
+.container {	
+	width:100%;
+}
+
+section {
+	width: 100%;
+	padding: 20px;
+	margin: 0;
+
+}
+
+section h2 {
+	font-size: 26px;
+	padding-top: 10px;
+}
+
+section h4 {
+	top: 75%;
+
+}
+
+article img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+aside {
+	width: 100%;
+	padding: 20px;
+	text-align: left;
+}
+
+.box1 {
+    width: 100%;
+}
+
+.box2 {
+    width: 100%;
+}
+
+  /* Home Page End */
+}
+
+@media handheld, screen and (max-width: 1280px) {
+
+  
+
+}
